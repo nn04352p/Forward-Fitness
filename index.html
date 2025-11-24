@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forward Fitness Club | Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <img src="forward-fitness-logo.png" alt="Forward Fitness Club logo" height="220" width="297">
+      <h1>Forward Fitness Club</h1>
+    </header>
+
+   <nav>
+  <ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="nutrition.html">Nutrition</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="media.html">Media</a></li>
+  </ul>
+</nav>
+
+    <main>
+      <h2>Welcome to Forward Fitness Club!</h2>
+      <p>At Forward Fitness Club, we help you stay strong, motivated, and healthy. Our trainers and programs are designed to fit your unique goals, whether it’s strength training, cardio, or overall wellness.</p>
+      <img src="people-with-weights.jpg" alt="People exercising with weights" class="main-image">
+
+      <!-- Audio Section -->
+      <section class="media-section">
+        <h2>Trainer Tip Audio</h2>
+        <p>Press play to listen to a quick trainer tip on how to get the most out of your workout.</p>
+        <audio controls>
+          <source src="media/ffc_audio.mp3" type="audio/mp3">
+          <source src="media/ffc_audio.ogg" type="audio/ogg">
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <!-- Video Section with Descriptions Track -->
+      <section class="media-section">
+        <h2>Forward Fitness Club Tour</h2>
+        <p>Watch a short video tour of our facility and hear descriptions of what’s happening on screen.</p>
+        <video controls>
+          <source src="media/ffc_video.mp4" type="video/mp4">
+          <source src="media/ffc_video.webm" type="video/webm">
+          <track kind="descriptions" src="media/descriptions.vtt" srclang="en" label="Audio Descriptions">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Forward Fitness Club</p>
+    </footer>
+  </div>
+</body>
+</html>
