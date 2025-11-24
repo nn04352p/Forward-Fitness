@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media | Forward Fitness Club</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <img src="forward-fitness-logo.png" alt="Forward Fitness Club logo" height="220" width="297">
+      <h1>Media</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="media.html" class="active">Media</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Forward Fitness Media Center</h2>
+      <p>Listen to trainer tips, sample workout music, and watch a quick tour of Forward Fitness Club.</p>
+
+      <!-- Featured Trainer Tip -->
+      <section class="media-section">
+        <h3>Featured Trainer Tip</h3>
+        <p>Start with a proper warm-up and focus on form before adding more weight.</p>
+        <audio controls>
+          <source src="media/ffc_audio.mp3" type="audio/mp3">
+          <source src="media/ffc_audio.ogg" type="audio/ogg">
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <!-- Workout Music Playlist -->
+      <section class="media-section">
+        <h3>Workout Music Samples</h3>
+        <p>Choose a track to match your workout mood.</p>
+
+        <div class="audio-grid">
+          <div class="audio-card">
+            <h4>Tech Energy Mix</h4>
+            <p><small>Great for high-intensity cardio or interval training.</small></p>
+            <audio controls>
+              <source src="media/audio-tech.mp3" type="audio/mp3">
+              <source src="media/audio-tech.ogg" type="audio/ogg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="audio-card">
+            <h4>Rock Power Mix</h4>
+            <p><small>Perfect for strength training and heavy lifts.</small></p>
+            <audio controls>
+              <source src="media/audio-rock.mp3" type="audio/mp3">
+              <source src="media/audio-rock.ogg" type="audio/ogg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="audio-card">
+            <h4>Happy Motivation Mix</h4>
+            <p><small>Light, upbeat tracks to keep you moving.</small></p>
+            <audio controls>
+              <source src="media/audio-happy.mp3" type="audio/mp3">
+              <source src="media/audio-happy.ogg" type="audio/ogg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gym Tour Video -->
+      <section class="media-section">
+        <h3>Forward Fitness Club Tour</h3>
+        <p>Take a short video tour of the gym and hear descriptions of what’s happening on screen.</p>
+        <video controls>
+          <source src="media/ffc_video.mp4" type="video/mp4">
+          <source src="media/ffc_video.webm" type="video/webm">
+          <track kind="descriptions" src="media/descriptions.vtt" srclang="en" label="Audio Descriptions">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Forward Fitness Club</p>
+    </footer>
+  </div>
+</body>
+</html>
